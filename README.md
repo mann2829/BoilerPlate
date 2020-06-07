@@ -31,10 +31,10 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 1. First "Clone or Download" the project in your desired location.
 2. Run "composer install" command in project root directory.
-3. Run "cp .env.example .env" this will make a .env file. 
+3. Run "cp .env.example .env" this will make a .env file. add sudo before command if you are using ubuntu
 4. Set db configuration in .env file.
 5. Run "php artisan migrate" command for create migration tables in database.
-6. Give permission to storage and bootstrap folder.
+6. Run "sudo chmod -R 777 storage or bootstrap" if you are using ubuntu. it will give permission to storage and bootstrap folder.
 
 That's it you are ready to go. Enjoy!!!!
 
